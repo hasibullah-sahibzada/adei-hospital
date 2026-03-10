@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
   return (
     <>
       {/* Hero section start */}
-      <section className="py-2 px-3 md:px-12 w-full h-[790px] md:h-[520px]">
+      <section className="py-2 px-2.5 md:px-12 w-full h-[790px] md:h-[520px]">
         <div className="w-full h-full relative">
           <img
             src={heroImg ? hero2 : hero1}
